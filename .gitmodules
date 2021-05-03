@@ -1,0 +1,9 @@
+[submodule "demo_projects/transformer-vae"]
+	path = demo_projects/transformer-vae
+	url = https://github.com/Fraser-Greenlee/transformer-vae
+[submodule "demo_projects/transformers"]
+	path = demo_projects/transformers
+	url = https://github.com/huggingface/transformers
+[submodule "demo_projects/basic-python"]
+	path = demo_projects/basic-python
+	url = https://github.com/Fraser-Greenlee/basic-python
