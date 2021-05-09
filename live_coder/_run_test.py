@@ -23,4 +23,4 @@ def run_test(python_path, project_root, test_id):
         method = test_method
     )
     process = subprocess.run(run_command.split(), cwd=project_root, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-    return process.stdout.decode('utf-8'), process.stderr.decode('utf-8')
+    return process.stderr.decode('utf-8')
